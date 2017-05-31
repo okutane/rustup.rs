@@ -113,12 +113,6 @@ cache:
     - target/$TARGET/release
     - target/release/deps
 
-branches:
-  only:
-    - master
-    - stable
-    - auto
-
 notifications:
   webhooks: http://buildbot.rust-lang.org/homu/travis
 
