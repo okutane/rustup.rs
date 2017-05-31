@@ -123,7 +123,7 @@ To configure your current shell run `source {cargo_home}/env`
 
 macro_rules! post_install_msg_win {
     () => {
-r"# Rust is installed now. Great!
+r"Rust is installed now. Great!
 
 To get started you need Cargo's bin directory ({cargo_home}\bin) in your `PATH`
 environment variable. Future applications will automatically have the
@@ -134,7 +134,7 @@ correct environment, but you may need to restart your current shell.
 
 macro_rules! post_install_msg_unix_no_modify_path {
     () => {
-r"# Rust is installed now. Great!
+r"Rust is installed now. Great!
 
 To get started you need Cargo's bin directory ({cargo_home}/bin) in your `PATH`
 environment variable.
@@ -146,7 +146,7 @@ To configure your current shell run `source {cargo_home}/env`
 
 macro_rules! post_install_msg_win_no_modify_path {
     () => {
-r"# Rust is installed now. Great!
+r"Rust is installed now. Great!
 
 To get started you need Cargo's bin directory ({cargo_home}\bin) in your `PATH`
 environment variable. This has not been done automatically.
@@ -156,7 +156,7 @@ environment variable. This has not been done automatically.
 
 macro_rules! pre_uninstall_msg {
     () => {
-r"# Thanks for hacking in Rust!
+r"Thanks for hacking in Rust!
 
 This will uninstall all Rust toolchains and data, and remove
 `{cargo_home}/bin` from your `PATH` environment variable.
